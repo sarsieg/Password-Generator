@@ -110,4 +110,14 @@ else if (confirmNumber) {
 else if (confirmUppercase) {
     choices = space.concat(alpha2);
 };
+
+// password variable = array placeholder for user generates amount length
+let password = [];
+
+// random selection of variables
+// random selection of all variables
+for (let i = 0; i < enter; i++) {
+    let pickChoices = choices[Math.floor(Math.random() * choices.length)];
+    password.push(pickChoices);
+}
 }
