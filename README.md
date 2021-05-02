@@ -8,7 +8,7 @@ This project has mulitple features such as a generate password button that will 
 
 [Live Link](https://sarsieg.github.io/Password-Generator/)
 
-![Screenshot](/assets/images/Screenshot.png/)
+
 
 ## License
 
