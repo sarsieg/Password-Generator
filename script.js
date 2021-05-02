@@ -73,4 +73,26 @@ else if (confirmCharacter && confirmLowercase && confirmUppercase) {
 else if (confirmNumber && confirmLowercase && confirmUppercase) {
     choices = character.concat(alpha, alpha2);
 }
+
+// else if for 2 positive options
+else if (confirmCharacter && confirmNumber) {
+    choices = character.concat(number);
+
+}
+else if (confirmCharacter && confirmLowercase) {
+    choices = character.concat(alpha);
+
+}
+else if (confirmCharacter && confirmUppercase) {
+    choices = character.concat(alpha2);
+}
+else if (confirmLowercase && confirmNumber) {
+    choices = character.concat(number);
+}
+else if (confirmLowercase && confirmUppercase) {
+    choices = character.concat(alpha2);
+}
+else if (confirmNumber && confirmUppercase) {
+    choices = character.concat(alpha2);
+}
 }
