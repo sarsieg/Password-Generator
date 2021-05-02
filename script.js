@@ -126,4 +126,18 @@ for (let i = 0; i < enter; i++) {
 function UserInput(ps) {
     document.getElementById("password").textContent = ps;
 }
+
+let copy = document.querySelector("#copy");
+copy.addEventListener("click", function () {
+    copyPassword();
+
+});
+
+function copyPassword() {
+    document.getElementById("password").select();
+    document.execCommand("Copy");
+    alert("Password copied to clipboard!");
+}
+
+
 }
