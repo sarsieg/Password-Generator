@@ -19,5 +19,3 @@ let choices;
 let toUpper = function (x) {
     return x.toUpperCase();
 };
-
-
