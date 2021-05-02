@@ -19,3 +19,13 @@ let choices;
 let toUpper = function (x) {
     return x.toUpperCase();
 };
+
+// creates a variable for uppercase conversion
+alpha2 = alpha.map(toUpper);
+
+let get = document.querySelector("#generate");
+
+get.addEventListener("click", function () {
+    ps = generatePassword();
+    document.getElementById("password").placeholder = ps;
+});
