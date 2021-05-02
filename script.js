@@ -121,6 +121,12 @@ for (let i = 0; i < enter; i++) {
     password.push(pickChoices);
 }
 
+
+let ps = password.join("");
+UserInput(ps);
+return ps;
+}
+
 // puts value of password into textbox
 // changed function input to use textcontent
 function UserInput(ps) {
@@ -139,5 +145,3 @@ function copyPassword() {
     alert("Password copied to clipboard!");
 }
 
-
-}
