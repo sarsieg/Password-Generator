@@ -5,7 +5,7 @@ This application is being used to generate a random and secure password for a us
 
 [Live Link](https://sarsieg.github.io/Password-Generator/)
 
-![screenshot] (/assets/images/Screenshot.png/)
+![Screenshot](/assets/images/Screenshot.png/)
 
 ## License
 
