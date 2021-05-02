@@ -120,4 +120,10 @@ for (let i = 0; i < enter; i++) {
     let pickChoices = choices[Math.floor(Math.random() * choices.length)];
     password.push(pickChoices);
 }
+
+// puts value of password into textbox
+// changed function input to use textcontent
+function UserInput(ps) {
+    document.getElementById("password").textContent = ps;
+}
 }
