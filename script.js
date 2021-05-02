@@ -95,4 +95,19 @@ else if (confirmLowercase && confirmUppercase) {
 else if (confirmNumber && confirmUppercase) {
     choices = character.concat(alpha2);
 }
+
+// else if for 1 positive option
+else if (confirmCharacter) {
+    choices = character;
+}
+else if (confirmLowercase) {
+    choices = alpha;
+}
+else if (confirmNumber) {
+    choices = number;
+}
+// made variable to fill uppercase conversion from above
+else if (confirmUppercase) {
+    choices = space.concat(alpha2);
+};
 }
