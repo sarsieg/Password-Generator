@@ -132,16 +132,10 @@ return ps;
 function UserInput(ps) {
     document.getElementById("password").textContent = ps;
 }
-
-let copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
-    copyPassword();
-
-});
-
-function copyPassword() {
-    document.getElementById("password").select();
+document.getElementById("password").onclick = function() {
+    this.select();
     document.execCommand("Copy");
     alert("Password copied to clipboard!");
+
 }
 
